@@ -58,4 +58,17 @@ public class User {
 		this.mobileNumber = mobileNumber;
 	}
 
+	public User() {
+		super();
+
+	}
+
+	public User(Long id, String username, String email, String mobileNumber) {
+		super();
+		this.id = id;
+		this.username = username;
+		this.email = email;
+		this.mobileNumber = mobileNumber;
+	}
+
 }
